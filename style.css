@@ -51,8 +51,29 @@ li{
     padding: 15px;
 }
 
+/* Main IMG */
 img{
     width: 100%;
     height: auto;
-    
-}    
+
+}   
+ /*Header  */
+ .main-hello{
+     font-weight: 300;
+     margin: 1.5rem;
+     text-align: center;
+     color: #F96D00;
+ }
+
+ .main-p {
+     font-weight: 700;
+     font-size: 1.25rem;
+     margin: 1.5rem;
+     padding-left: 15px;
+     padding-right: 15px;
+     display: inline-block;
+     text-align: center;
+     line-height: 1.5;
+     vertical-align: middle;
+  
+ }
