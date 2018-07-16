@@ -31,9 +31,15 @@ a:link, a:visited {
     display: block;
     padding: 10px;
     letter-spacing: 5px;
+   
     
 }
 
+.logo:visited{
+    color: white;
+}
+
+/* NAV BAR */
  ul{
     text-align: center;
     padding-top: .5em;
@@ -45,11 +51,16 @@ a:link, a:visited {
     text-transform: uppercase;
     padding-right: 10%;
     
-}
+} 
+
 
 li{
     padding: 15px;
 }
+
+
+
+/************ BODY ****************/
 
 /* Main IMG */
 img{
@@ -57,7 +68,7 @@ img{
     height: auto;
 
 }   
- /*Header  */
+ /**Header  */
  .main-hello{
      font-weight: 300;
      margin: 1.5rem;
@@ -66,7 +77,7 @@ img{
  }
 
  .main-p {
-     font-weight: 700;
+     font-weight: 300;
      font-size: 1.25rem;
      margin: 1.5rem;
      padding-left: 15px;
@@ -76,4 +87,26 @@ img{
      line-height: 1.5;
      vertical-align: middle;
   
+ }
+
+
+
+  /* ****** FOOTER ************ */
+ /* Icons */
+ .contact-buttons {
+     font-size: 1.73em;
+     display: flex;
+ }
+
+ .icon{
+    margin:auto;
+    
+ }
+
+ .icon:link {
+     color: #F96D00;
+ }
+
+ .icon:visited {
+     color: #F96D00;
  }
