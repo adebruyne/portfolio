@@ -112,6 +112,52 @@ img{
      color: #F96D00;
  }
 
+
+ /* ************ABOUT Section**************** */
+ /* DIGITAL CRAFTS LINK */
  .dc:link, .dc:visited {
      color: #F96D00; 
+ }
+
+/**********PROJECT SECTION********** */
+
+ /* SCREENSHOTS */
+.screenshots {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 95%;
+    padding-top: 10%;
+    padding-left: 2%;
+}
+
+
+ .project-img-lg {
+     position: relative;
+     width: 70%;
+     left:0;
+     z-index: 1;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.75); 
+ }
+
+ .project-img-md {
+     position: relative;
+    width: 27%;
+    right: 17%;
+    z-index: 2;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.75);
+ }
+
+ .project-img-sm {
+     position: absolute;
+     width: 14%;
+     right: 2.2rem;
+     z-index: 3;
+     padding-top: 25%;
+    
+ }
+
+ /* Project title */
+ .project-title{
+     padding-left: 5%;
  }
