@@ -96,6 +96,7 @@ img{
  .contact-buttons {
      font-size: 1.73em;
      display: flex;
+     margin: 10px 25px 25px 25px;
  }
 
  .icon{
@@ -109,4 +110,8 @@ img{
 
  .icon:visited {
      color: #F96D00;
+ }
+
+ .dc:link, .dc:visited {
+     color: #F96D00; 
  }
