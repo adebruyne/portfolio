@@ -204,3 +204,8 @@ img{
      border-radius: 3px;
      font-size: 12px;
  }
+
+ /* Rad hiking small image */
+ .hiking-sm {
+     padding-top: 32%;
+ }
