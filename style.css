@@ -21,6 +21,13 @@ a:link, a:visited {
 }
 
 /* MAIN HEADER */
+.header{
+   
+    position: fixed;
+    top:0;
+    width: 100%;
+
+}
 
 .logo{
     background-color: #b2d5b2;
@@ -40,6 +47,10 @@ a:link, a:visited {
 }
 
 /* NAV BAR */
+
+.navbar {
+    margin-top: 7em;
+}
  ul{
     text-align: center;
     padding-top: .5em;
