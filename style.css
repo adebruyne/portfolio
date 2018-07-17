@@ -44,7 +44,7 @@ a:link, a:visited {
     text-align: center;
     padding-top: .5em;
     margin-top: 0;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
     color: black;
     display: block;
     list-style-type: none;
@@ -100,7 +100,8 @@ img{
  .contact-buttons {
      font-size: 1.73em;
      display: flex;
-     margin: 10px 25px 25px 25px;
+     padding: 30px 0;
+     background-color: #b2d5b2;
  }
 
  .icon{
@@ -109,11 +110,13 @@ img{
  }
 
  .icon:link {
-     color: #F96D00;
+     background-color: #b2d5b2;
+     color:white;
  }
 
  .icon:visited {
-     color: #F96D00;
+    background-color: #b2d5b2;
+    color:white;
  }
 
 
