@@ -21,15 +21,19 @@ a:link, a:visited {
 }
 
 /* MAIN HEADER */
-.header{
-   
+.header{ 
     position: fixed;
     top:0;
     width: 100%;
     z-index: 4;
-    
-
 }
+
+body.scrolled .header{
+    opacity: 0.6;
+    transition: opacity .5s;
+}
+
+
 
 .logo{
     background-color: #b2d5b2;
@@ -134,6 +138,11 @@ img{
 
 
  /* ************ABOUT Section**************** */
+
+/*  */
+
+
+
  /* DIGITAL CRAFTS LINK */
  .dc:link, .dc:visited {
      color: #F96D00; 
