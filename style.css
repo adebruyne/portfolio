@@ -66,14 +66,20 @@ body.scrolled .header{
     display: block;
     list-style-type: none;
     text-transform: uppercase;
-    padding-right: 10%;
-    
+    padding-right: 10%;    
 } 
-
 
 li{
     padding: 15px;
 }
+
+.navbar-ul {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
 
 hr {
     border: 0;
@@ -264,4 +270,14 @@ img{
  }
 
 
+ @media only screen and (min-width: 768px) {
+    .project-img-sm {
+        right: 5.2rem;    
+    }
+
+ }
+
+ @media only screen and (min-width: 1024px){
+
+ }
  
