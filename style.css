@@ -225,3 +225,13 @@ img{
  .hiking-sm {
      padding-top: 32%;
  }
+
+
+ /* toggle hidden/unhidden */
+.hidden {
+    display: none;
+}
+
+.unhidden{
+    display: block;
+}
