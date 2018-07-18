@@ -137,7 +137,35 @@ img{
  /* DIGITAL CRAFTS LINK */
  .dc:link, .dc:visited {
      color: #F96D00; 
+    
  }
+
+ /* toggle hidden/unhidden My-Story */
+.hidden {
+    display: none;
+}
+
+.unhidden{
+    display: block;
+}
+
+.story-btn{
+    display:flex;
+    justify-content: center;
+}
+
+
+.story{
+    color: #F96D00 ;
+    border: 2px #F96D00 solid;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 7px 10px;
+    position: relative;
+    margin: 0 10px 30px 0;
+}
 
 /**********PROJECT SECTION********** */
 
@@ -227,29 +255,4 @@ img{
  }
 
 
- /* toggle hidden/unhidden */
-.hidden {
-    display: none;
-}
-
-.unhidden{
-    display: block;
-}
-
-.story-btn{
-    display:flex;
-    justify-content: center;
-}
-
-
-.story{
-    color: royalblue;
-    border: 2px royalblue solid;
-    display: inline-block;
-    border-radius: 3px;
-    font-weight: 500;
-    font-size: 14px;
-    padding: 7px 10px;
-    position: relative;
-    margin: 0 10px 30px 0;
-}
+ 
