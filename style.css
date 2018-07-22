@@ -310,6 +310,26 @@ img{
 
  @media only screen and (min-width: 1024px){
 
+        html {
+            overflow-x: hidden;
+            margin: 2rem;
+        }
+        body {
+            margin-left: calc(50% + 40px);
+            margin-right: 5em;
+            width: 35%;
+        }
+        .main-image {
+            width: calc(50% - 5rem);
+            height: 100vh;
+            top: 0;
+            left: 5rem;
+            position: fixed;
+        }
+
+        
+
+
         .logo {
             height: 100vh;
             width: 5rem;
@@ -327,6 +347,16 @@ img{
             transform-origin: 0 0;
             transform: translate(10px, -100%) rotate(90deg); 
             font-size: 14px;
+        }
+
+        .navbar {
+            padding-top: .5em;
+            margin-top: 0rem;
+            margin-bottom: 4rem;
+        }
+
+        .main-body{
+            min-height: calc(100vh -25rem);
         }
 
  }
