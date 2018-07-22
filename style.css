@@ -359,5 +359,24 @@ img{
             min-height: calc(100vh -25rem);
         }
 
+       .goodbye {
+           padding-left: 10rem;
+       }
+
+       .contact-buttons {
+           background-color: #F4F9F4;
+       }
+
+       .icon:visited {
+           background-color: #F4F9F4;
+           color: #F96D00
+       }
+
+       .icon:link {
+           background-color: #F4F9F4;
+           color: #F96D00;
+       }
+
+
  }
  
