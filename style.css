@@ -36,7 +36,7 @@ body.scrolled .header{
 
 
 .logo{
-    background-color: #b2d5b2;
+    background-color: rgb(188,210,204);
     text-align: center;
     position: relative;
     color: white;
@@ -124,7 +124,7 @@ img{
      font-size: 1.73em;
      display: flex;
      padding: 30px 0;
-     background-color: #b2d5b2;
+     background-color:rgb(188,210,204) ;
  }
 
  .icon{
@@ -133,12 +133,12 @@ img{
  }
 
  .icon:link {
-     background-color: #b2d5b2;
+     background-color:rgb(188,210,204);
      color:white;
  }
 
  .icon:visited {
-    background-color: #b2d5b2;
+    background-color: rgb(188,210,204);
     color:white;
  }
 
