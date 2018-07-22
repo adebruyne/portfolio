@@ -275,6 +275,32 @@ img{
         right: 5.2rem;    
     }
 
+    .contact-buttons{
+        font-size: 2em;
+    }
+
+    .logo {
+        font-size: 10px;
+    }
+
+    .navbar {
+        margin-top: 4em;
+    }
+     ul{
+        font-size: 14px;
+        margin-bottom: 3rem;
+     } 
+    
+    li{
+        padding: 15px;
+    }
+    
+    .navbar-ul {
+       
+        flex-direction: row;
+        
+
+    }
  }
 
  @media only screen and (min-width: 1024px){
